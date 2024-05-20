@@ -1,8 +1,21 @@
 .bc{
- width: 75px;
+ width: 100%;
 height:50px ;
-display: flex;
+display:flex;
+justify-content: flex-end;
+margin-right: 10px;
 background-color: lightgray;
 }
 
+.pesquisar {
+    display: flex;
+}
 
+.video, 
+.lupa, 
+.ponto {
+    width: 25px;
+    height: 25px ;
+    display: flex; 
+    margin: 15px;
+}
