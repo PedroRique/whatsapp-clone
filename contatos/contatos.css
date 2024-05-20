@@ -1,0 +1,38 @@
+.chat-container {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-container .contact-header {
+  display: flex;
+  justify-content: space-between;
+}
+.chat-container .contact-header h3 {
+  margin: 0;
+  padding: 6px;
+}
+
+.chat-container .contact-info {
+  flex: 1;
+}
+
+
+.tempo {
+  color: #aaa;
+}
+
+.chat-container:hover {
+  background-color: rgb(197, 193, 193);
+  transition: 0.5s;
+}
+
+.chat-container .contact-message {
+  margin: 0;
+  padding: 6px;
+}
