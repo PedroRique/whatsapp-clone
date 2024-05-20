@@ -7,7 +7,6 @@
 .dot {
     width: 10px;
     height: 10px;
-    background-color: rgb(108, 76, 164);
     border-radius: 50%;
     margin: 5px; 
 }
@@ -19,6 +18,7 @@ input{
 }
 
 img{
-    width: 400px;
-    height: 60px;
+    width: 35px;
+    height: 35px
+
 }
