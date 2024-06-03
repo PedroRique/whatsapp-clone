@@ -12,12 +12,18 @@ class MyBarra extends HTMLElement {
     this.shadow.innerHTML = `
         <link rel="stylesheet" href="barra-contato/barra-contato.css">
         <div class="bc">
-            <div class="pesquisar">
-                <img src="barra-contato/lupa.png">
-                <img src="barra-contato/video-camera.png">
-                <img src="barra-contato/tres.png">
-            </div>
-        </div>
+          <div class="bc2">
+              <my-avatar></my-avatar>
+              <h1 class="nome">domingo a noite</h1>
+          </div>
+          
+              
+          <div class="pesquisar">
+              <img class="video" src="barra-contato/video-camera.png">
+              <img class="lupa" src="barra-contato/lupa.png">
+              <img class="ponto" src="barra-contato/tres.png">
+          </div>
+      </div>
         `;
   }
 }
