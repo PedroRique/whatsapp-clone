@@ -10,17 +10,17 @@ class Pesquisar extends HTMLElement {
     render() {
         this.shadow.innerHTML = `
             <link rel="stylesheet" href="pesquisar/pesquisar.css">
-            <div class="container">
+            <div class="contaniner">
+                <img src="pesquisar/lupa.png" alt="lupa">
                 <img src="pesquisar/icone2.png" alt="icone2">
                 <img src="pesquisar/status.webp" alt="status">
                 <img src="pesquisar/conversa.png" alt="conversa">
                 <img src="pesquisar/ponto.png" alt="ponto">
                 
-                <br>
-            
-                <div class="status-info">
-                    <input type="text" placeholder="pesquisar">
+                <div class="container">
+                    <input type="pesquisar" class="pesquisar" placeholder="pesquisar">
                 </div>
+                    <br>
                 
                 <div class="ponto"></div>
                 <div class="ponto"></div>
